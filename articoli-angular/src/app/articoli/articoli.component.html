@@ -1,0 +1,18 @@
+<table>
+    <thead>
+      <tr>
+        <th>nomeArticolo</th>
+        <th>prezzo</th>
+        <th>recensioni</th>
+      </tr>
+    </thead>
+
+
+    <tbody>
+      <tr *ngFor="let articoli of articoli">
+          <td>{{articoli.nomeArticolo}}</td>
+          <td>{{articoli.prezzo}}</td>
+          <td>{{articoli.recensioni}}</td>
+      </tr>
+    </tbody>
+  </table>
